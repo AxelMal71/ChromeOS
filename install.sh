@@ -1,11 +1,10 @@
 #!/bin/sh
-# SUBSCRIBE to How To Guys on youtube for more such videos https://www.youtube.com/c/HowToGuys
-sudo apt-get update
-sudo apt-get install figlet
+# HowT o Guys, I made this script better. You're welcome.
+sudo apt update
 sudo apt-get install pv
 sudo apt-get install cgpt
-sudo figlet -c "SUBSCRIBE TO"
-sudo figlet -c How To
-sudo figlet -c Guys
-sudo echo https://www.youtube.com/c/HowToGuys
+sudo echo Subscribe to HowToGuys
+sudo echo (& give credit to AxelMal71 on GitHub because he made this script better!)
 sudo bash chromeos-install.sh -src rammus_recovery.bin -dst /dev/sda
+# Replace -------------------------------------------------- this ^
+# with your own disk type unless it's already sda!
